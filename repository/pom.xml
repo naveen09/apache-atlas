@@ -109,7 +109,11 @@
 			<artifactId>spring-cloud-aws-jdbc</artifactId>
 			<version>${spring.cloud.version}</version>
 		</dependency>
-
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-aws-autoconfigure</artifactId>
+			<version>${spring.cloud.version}</version>
+		</dependency>
 		<!-- Test dependencies -->
 
 		<dependency>
